@@ -1,0 +1,93 @@
+* {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.navBar {
+    color: white;
+    background-color: rgb(0, 25, 38);
+    display: flex;
+    justify-content: space-around;
+    margin: -8px;
+    gap: 5rem;
+    padding: 5px;
+    position: fixed;
+    width: 100%;
+}
+
+.logo {
+    height: 50px;
+    width: 50px;
+    padding: 10px;
+}
+
+.searchBar {
+    margin: 15px;
+    width: 20%;
+    padding: 0 15px;
+
+
+}
+
+.menuList {
+    color: white;
+    list-style-type: none;
+    list-style: none;
+    display: flex;
+    padding: 10px;
+}
+
+
+a {
+    color: white;
+    list-style-type: none;
+    text-decoration: none;
+    padding: 0 30px;
+}
+
+a:hover {
+    color: gray;
+}
+
+.icon {
+    color: white;
+    padding: 0 10px;
+    margin-top: 25px;
+}
+
+.icon:hover {
+    color: rgb(28, 28, 219);
+}
+
+.productList {
+    display: flex;
+    justify-content: space-around;
+}
+
+.card {
+    margin: 8rem 1rem;
+    padding: 50px;
+    height: 57vh;
+    text-align: center;
+}
+
+.prodImg {
+    height: 40vh;
+    width: 15vw;
+}
+
+#prodDescription {
+    font-weight: 600;
+    margin-top: 10px;
+    text-align: center;
+}
+
+#buyNowBtn {
+    margin: 4px;
+    color: black;
+    background-color: orange;
+}
+
+#addToCartBtn {
+    color: orange;
+    border-color: orange;
+}
